@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget https://github.com/wenxue263/serv00-app-vless/blob/6053d35bd8c6e05297183c9730247e4e72f55be8/vless.zip -O vless.zip
+wget https://raw.githubusercontent.com/wenxue263/serv00-app-vless/main/vless.zip -O vless.zip
 unzip vless.zip
 
 if [ -f "vless/app.js" ]; then
